@@ -12,7 +12,7 @@ function Portfolio() {
     return (
         <Container className="portfolio-container">
             <Row style={{justifyContent:"center"}}>
-                {portfolioCards.map((card) => 
+                {portfolioCards.map((card) =>
                     <Col xs={12} md={6} lg={4} className="portfolio-card">
                         <div className="card-info">
                             <Row>

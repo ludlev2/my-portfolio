@@ -130,7 +130,7 @@ export let information = {
     aboutMe: "Short Description of yourself!", // Short Description
     companyName: "Position @ Company", // Your position @ a Company
     // Replace with the URL to your image (URL or Local Image)
-    profilePhoto: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+    profilePhoto: "ludanyi leventeRT.jpg",
 }
 ```
 

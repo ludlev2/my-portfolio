@@ -1,8 +1,8 @@
 {
-  "homepage": "http://JAhimaz.github.io/Portfolio-Bootstrap-React",
-  "name": "react-portfolio",
+  "homepage": "http://ludlev2.github.io/my-project",
+  "name": "my-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",

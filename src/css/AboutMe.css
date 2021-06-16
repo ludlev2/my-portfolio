@@ -2,7 +2,7 @@
 
 .aboutme-container {
     margin-top: 5em;
-    height: 600px;
+    height: 400px;
     width: 100%;
     background-color: var(--bg-over);
     color: var(--text-color);
@@ -44,7 +44,3 @@
         height: 400px;
     }
 }
-
-
-
-

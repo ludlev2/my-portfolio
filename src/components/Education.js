@@ -3,14 +3,14 @@ import clsx from 'clsx';
 
 import { Row, Col } from 'react-bootstrap';
 
-import '../css/Experience.css';
-import { experience } from '../EditMe';
+import '../css/Education.css';
+import { education } from '../EditMe';
 
-function Experience() {
+function Education() {
     return (
-        <Row className="experience-container">
-            <Col xs={12} className="experience-section">
-                {experience.experiences.map((company) =>
+        <Row className="education-container">
+            <Col xs={12} className="education-section">
+                {education.education.map((company) =>
                     <Row className="company">
                         <Col xs={12} md={3} style={{textAlign: "right"}}>
                             <img className="companyLogo" src={clsx({
@@ -23,9 +23,6 @@ function Experience() {
                             <p className="companyLocation">{company.companyLocation}</p>
                               {company.roles.map((role) =>
                                 <>
-                                    <p className={ "card-subtitle" }>
-                                      {experience.description}
-                                    </p>
                                     <p className="role">• {role.role}</p>
                                     <p className="role-time">{role.startPeriod} - {role.endPeriod} • {role.type}</p>
                                     <p className="role-desc">{role.description}</p>
@@ -39,4 +36,4 @@ function Experience() {
     );
 }
 
-export default Experience;
+export default education;

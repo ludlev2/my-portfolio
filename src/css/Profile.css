@@ -74,7 +74,7 @@
     font-size: 1em;
 }
 
-.profile-twitter, .profile-linkedin, .profile-github {
+.profile-facebook, .profile-linkedin, .profile-github {
     color: var(--primary-color);
     font-size: 30px;
     text-align: center;
@@ -92,33 +92,33 @@
     .profile-row {
         margin-top: 5em;
     }
-    
+
     .profile {
         height: 210px;
         width: 210px;
     }
-    
+
     .profile-img {
         height: 200px;
         width: 200px;
     }
 
     .column-greeting {
-        text-align: left;  
+        text-align: left;
         animation: 0.75s ease-out 0s 1 slideInFromTop;
     }
-    
+
     .greeting-sub {
         font-size: 1em;
         text-align: right;
     }
-    
+
     .greeting-name {
         font-size: 2.5em;
         text-align: right;
         line-height: 1.2em;
     }
-    
+
     .column-status {
         display: flex;
         flex-direction: column;
@@ -129,17 +129,17 @@
         margin-top: 0em;
         animation: 0.75s ease-out 0s 1 slideInFromBottom;
     }
-    
+
     .lower-profile-text {
         font-size: 1.25em;
         padding: 0;
     }
-    
+
     .lower-profile-text-sub {
         font-size: 1em;
     }
 
-    .profile-twitter, .profile-linkedin, .profile-github {
+    .profile-facebook, .profile-linkedin, .profile-github {
         color: var(--primary-color);
         font-size: 30px;
         position: absolute;
@@ -147,13 +147,13 @@
         transition: font-size 0.2s;
     }
 
-    .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
+    .profile-facebook:hover, .profile-linkedin:hover, .profile-github:hover {
         color: var(--secondary-color);
         font-size: 35px;
         position: absolute;
     }
 
-    .profile-twitter {
+    .profile-facebook {
         left: 20%;
         bottom: -20%;
     }
@@ -180,7 +180,7 @@
         height: 310px;
         width: 310px;
     }
-    
+
     .profile-img {
         height: 300px;
         width: 300px;
@@ -189,22 +189,22 @@
     .greeting-sub {
         font-size: 1.2em;
     }
-    
+
     .greeting-name {
         font-size: 2.5em;
         line-height: 1.2em;
     }
 
-    .profile-twitter, .profile-linkedin, .profile-github {
+    .profile-facebook, .profile-linkedin, .profile-github {
         font-size: 35px;
     }
 
-    .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
+    .profile-facebook:hover, .profile-linkedin:hover, .profile-github:hover {
         font-size: 40px;
 
     }
 
-    .profile-twitter {
+    .profile-facebook {
         left: 25%;
         bottom: -15%;
     }
@@ -218,16 +218,16 @@
         right: 25%;
         bottom: -15%;
     }
-    
+
     .column-status {
         line-height: 2em;
     }
-    
+
     .lower-profile-text {
         font-size: 1.5em;
         padding-right: 10px;
     }
-    
+
     .lower-profile-text-sub {
         font-size: 1.25em;
     }
@@ -239,13 +239,13 @@
     .profile-row {
         margin-top: 10em;
     }
-    
+
     .profile {
         height: 420px;
         width: 420px;
         border: 10px solid var(--primary-color);
     }
-    
+
     .profile-img {
         height: 400px;
         width: 400px;
@@ -257,16 +257,16 @@
         position: relative;
     }
 
-    .profile-twitter, .profile-linkedin, .profile-github {
+    .profile-facebook, .profile-linkedin, .profile-github {
         font-size: 35px;
     }
 
-    .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
+    .profile-facebook:hover, .profile-linkedin:hover, .profile-github:hover {
         font-size: 40px;
 
     }
 
-    .profile-twitter {
+    .profile-facebook {
         left: 25%;
         bottom: -10%;
     }
@@ -280,26 +280,26 @@
         right: 25%;
         bottom: -10%;
     }
-    
+
     .greeting-sub {
         font-size: 1.5em;
     }
-    
+
     .greeting-name {
         font-size: 3em;
         line-height: 1.2em;
     }
-    
+
     .column-status {
         line-height: 2em;
     }
-    
+
     .lower-profile-text {
         font-size: 1.5em;
         padding-right: 5em;
-        
+
     }
-    
+
     .lower-profile-text-sub {
         font-size: 1.2em;
     }
@@ -334,6 +334,3 @@
         opacity: 100%;
     }
 }
-
-
-

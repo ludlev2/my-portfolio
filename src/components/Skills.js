@@ -1,3 +1,4 @@
+/*
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,7 +31,7 @@ function Skills() {
                     />
                 </Col>
                 <Col xs={12} sm={6} className="skills-panel">
-                    {skills.skillsData.map((skill) => 
+                    {skills.skillsData.map((skill) =>
                         <>
                             <p><span className="skills-highlight">{skill.title}</span><br />- {skill.description}<br />Experience: <span className="skills-highlight">{skill.experience}</span></p>
                         </>
@@ -42,3 +43,4 @@ function Skills() {
 }
 
 export default Skills;
+*/

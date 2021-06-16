@@ -1,4 +1,4 @@
-.experience-container {
+.education-container {
     margin-top: 5em;
     height: auto;
     width: 100%;
@@ -11,7 +11,7 @@
     font-size: 1em;
 }
 
-.experience-section {
+.education-section {
     margin-top: 5em;
 }
 
@@ -65,20 +65,7 @@
 }
 
 @media screen and (min-width: 1281px) {
-    .experience-section {
+    .education-section {
         padding: 0 20em;
     }
-}
-.card-title {
-  color: var(--text-color);
-  font-size: 22px;
-  line-height: 24px;
-  font-weight: 700;
-  margin: 15px 0 0 0;
-}
-
-.card-subtitle {
-  color: var(--text-color);
-  font-size: 17px;
-  line-height: 1.5rem;
 }

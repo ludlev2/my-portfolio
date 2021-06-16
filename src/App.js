@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 // Importing CSS
 
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './css/App.css';
 import './css/root.css';
 
@@ -14,13 +14,18 @@ import Profile from './components/Profile';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
-import Skills from './components/Skills';
+import Work from './components/Work';
+// import Education from './components/Education';
+//import Skills from './components/Skills';
+//import AchievementCard from './components/AchievementCard';
+import Awards from './components/Awards';
+import Contacts from './components/Contacts';
 
 import { pageStyling } from './EditMe';
 
 function App() {
 
-  useEffect(() => {    
+  useEffect(() => {
     var root = document.querySelector(':root');
     root.style.setProperty('--bg-color', pageStyling.backgroundColor);
     root.style.setProperty('--bg-over', pageStyling.foregroundColor);
@@ -47,7 +52,7 @@ function App() {
                   }
                 },
                 size: {
-                  value: 3, 
+                  value: 3,
                 },
                 move: {
                   enable: true,
@@ -85,13 +90,18 @@ function App() {
         <Portfolio />
         <a name="experience" />
         <Experience />
-        <a name="skills" />
-        <Skills />
+
+        <a name="awards" />
+        <Awards />
+        <a name="work" />
+        <Work />
+        <a name="contact" />
+        <Contacts />
       </header>
     </div>
   );
 
-  
+
 }
 
 export default App;

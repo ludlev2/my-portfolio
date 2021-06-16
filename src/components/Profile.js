@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { Container, Col, 
+import { Container, Col,
     Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import '../css/Profile.css';
 
-import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 // Value Import
 import { information, socials } from '../EditMe';
@@ -25,8 +25,8 @@ function Profile() {
                         <img className="profile-img" src={information.profilePhoto} alt={information.fullName + "'s profile"}></img>
                     </div>
                     <div className="profile-socials">
-                        <a target="_blank" rel="noreferrer" href={socials.twitterURL} className="profile-twitter">
-                            <FontAwesomeIcon icon = { faTwitter } />
+                        <a target="_blank" rel="noreferrer" href={socials.facebookURL} className="profile-facebook">
+                            <FontAwesomeIcon icon = { faFacebook } />
                         </a>
                         <a target="_blank" rel="noreferrer" href={socials.githubURL} className="profile-github">
                             <FontAwesomeIcon icon = { faGithub } />
