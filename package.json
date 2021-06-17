@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ludlev2.github.io/my-project",
+  "homepage": "https://ludlev2.github.io/my-portfolio/",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": false,
@@ -20,6 +20,7 @@
     "react-dom": "^17.0.1",
     "react-minimal-pie-chart": "^8.2.0",
     "react-particles-js": "^3.4.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
