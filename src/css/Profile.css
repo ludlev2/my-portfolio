@@ -82,8 +82,32 @@
     pointer-events: all;
 }
 
+.profile-facebook, .profile-linkedin, .profile-github {
+    font-size: 35px;
+}
+
+.profile-facebook:hover, .profile-linkedin:hover, .profile-github:hover {
+    font-size: 40px;
+
+}
+
+.profile-facebook {
+    left: 25%;
+    bottom: -15%;
+}
+
+.profile-github {
+    left: 45%;
+    bottom: -25%;
+}
+
+.profile-linkedin {
+    right: 25%;
+    bottom: -15%;
+}
+
 .profile-socials {
-    display: none;
+    display: contents;
 }
 
 /* HORIZONTAL IPAD VIEW */
