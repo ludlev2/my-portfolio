@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Typewriter from 'typewriter-effect';
 import { Container, Col,
     Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -18,7 +18,14 @@ function Profile() {
             <Row>
                 <Col className="column-greeting" xs={12} lg={4}>
                     <p className="greeting-sub">{information.welcomeMsg}</p>
-                    <p className="greeting-name">{information.fullName}</p>
+                    <p className="greeting-name">
+                      <Typewriter
+  options={{
+    strings: ['Levente Ludányi', 'Levi'],
+    autoStart: true,
+    loop: true,
+  }}
+/></p>
                 </Col>
                 <Col className="column-profile" xs={12} lg={4}>
                     <div className="profile">
