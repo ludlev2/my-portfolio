@@ -84,7 +84,7 @@ export let navigation = {
     resumeBtn: {
         enabled: true, // Enable / Disable
         downloadIcon: true, // Show Icon
-        text: "Resume", // Text on Button
+        text: "Résumé", // Text on Button
         url: "https://drive.google.com/uc?export=download&id=1NZShPsFTRBUuH1lRgOuDl-BhXkWiHgKy", // Make sure to include https:// or http://. This is the download link to your stored Resume
     }
 };
@@ -121,14 +121,14 @@ export let portfolioCards = [
     {
         projectTitle: "Függvényegyenletek középiskolában - Ludányi Levente, Matos Zoltán",
         projectDesc: "A paper on the different types of functional equations and different methods to solve them. The paper emphasizes the importance and frequency of the functional equations through different disciplinces.",
-        projectURL: "https://github.com/",
+        projectURL: "",
     },
-  /*  {
-        projectTitle: "My Project 2",
-        projectDesc: "",
-        projectURL: "https://github.com/",
+   {
+        projectTitle: "The Essence of Theoretical Physics by a High School Student - for the XXXV. National Scientific Student Conference",
+        projectDesc: "A project on the importance and beauty of the mathematical discoveries in physics. An overview of the possible Theory of Everythings along with some concepts of their mathematical description.",
+        projectURL: "",
     },
-    {
+  /*   {
         projectTitle: "My Project 3",
         projectDesc: "",
         projectURL: "https://github.com/",
