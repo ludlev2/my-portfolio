@@ -45,7 +45,7 @@ export let navigation = {
             url: "#aboutme", // Anchor points or External URLS, you may have to edit the App.js to add Anchors
         },
         {
-            text: "Publications",
+            text: "Publications/Projects",
             url: "#portfolio",
         },
         {
@@ -85,7 +85,7 @@ export let navigation = {
         enabled: true, // Enable / Disable
         downloadIcon: true, // Show Icon
         text: "Résumé", // Text on Button
-        url: "https://drive.google.com/uc?export=download&id=1NZShPsFTRBUuH1lRgOuDl-BhXkWiHgKy", // Make sure to include https:// or http://. This is the download link to your stored Resume
+        url: "https://drive.google.com/uc?export=download&id=1r_ItZ3Z5yFJkwdiduTxE4mKtaVmlAo3S", // Make sure to include https:// or http://. This is the download link to your stored Resume
     }
 };
 
@@ -94,10 +94,10 @@ export let navigation = {
 export let information = {
     fullName: "Levente Ludányi", // Name in Profile Banner
     welcomeMsg: "Hi 🤚! I'm ", // Welcome subheading above Name
-    aboutMe: "I'm double majoring in Mathematics and Physics and minoring in Computer Science! ", // Short Description
+    aboutMe: "I'm double majoring in Mathematics and Physics! ", // Short Description
     companyName: "at École Polytechnique", // Your position @ a Company
     // Replace with the URL to your image (URL or Local Image)
-    profilePhoto: "https://media-exp3.licdn.com/dms/image/C4E03AQF9Sw1fjIzS5g/profile-displayphoto-shrink_800_800/0/1621532354699?e=1628121600&v=beta&t=pZ_1YHJY1c5Na3MFUEI2DjZxF9XoVYBhqLANgXjSxOs",
+    profilePhoto: "https://media-exp1.licdn.com/dms/image/C4E03AQF9Sw1fjIzS5g/profile-displayphoto-shrink_800_800/0/1621532354699?e=1634774400&v=beta&t=KU9N3syUrNjfreswXqjBBE-YTjFdbknINFbuam7EzjQ",
 };
 
 // Socials ----------------------------------------------------------------------------
@@ -120,7 +120,7 @@ export let aboutMe = {
 export let portfolioCards = [
     {
         projectTitle: "Függvényegyenletek középiskolában - Ludányi Levente, Matos Zoltán",
-        projectDesc: "A paper on the different types of functional equations and different methods to solve them. The paper emphasizes the importance and frequency of the functional equations through different disciplinces.",
+        projectDesc: "A paper on the different types of functional equations and several methods to solve them. The paper emphasizes the importance and frequency of the functional equations through different disciplinces.",
         projectURL: "",
     },
    {
@@ -128,11 +128,11 @@ export let portfolioCards = [
         projectDesc: "A project on the importance and beauty of the mathematical discoveries in physics. An overview of the possible Theory of Everythings along with some concepts of their mathematical description.",
         projectURL: "",
     },
-  /*   {
-        projectTitle: "My Project 3",
-        projectDesc: "",
-        projectURL: "https://github.com/",
-    }, */
+    /*{
+        projectTitle: "Sentiment Analyst Algorithm (under development)",
+        projectDesc: "An algorithm which collects data from social media and news portals then analyze the general sentiment, along with different quantitative factors.",
+        projectURL: "",
+    },*/
 
 ];
 
@@ -141,7 +141,7 @@ export let portfolioCards = [
 export let contractsCards = [
 
     {
-        projectTitle: "ludanyi.levente@gmail.com",
+        projectTitle: "levente.ludanyi@polytechnique.edu",
         projectDesc: "",
         projectURL: "mailto:ludanyi.levente@gmail.com",
 
@@ -157,7 +157,7 @@ export let experience = {
         {
             companyLogo: "https://upload.wikimedia.org/wikipedia/commons/0/06/École_polytechnique_signature.svg", // Leave Blank for Template Logo
             companyName: "École Polytechnique", // Company Name
-            companyLocation: "Double Major in Mathematics and Physics", // Location of Company
+            companyLocation: "Bachelor of Science", // Location of Company
             roles: [ // Each company can have multiple Roles
                 {
                     role: "Double Major in Mathematics and Physics",
@@ -178,7 +178,7 @@ export let experience = {
         },
 
         {
-            companyLogo: "https://scontent-vie1-1.xx.fbcdn.net/v/t1.18169-9/66550_356918817729122_962494798_n.png?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=FzL4WXmLFoYAX_8uQcb&_nc_ht=scontent-vie1-1.xx&oh=d94195e2622d5b1500c3d40fc2e66ed7&oe=60E7C261", // Leave Blank for Template Logo
+            companyLogo: "https://events.ceu.edu/sites/default/files/styles/crop_promo_image/public/milestone_2.gif?itok=LQEgIXHT", // Leave Blank for Template Logo
             companyName: "Milestone Institute", // Company Name
             companyLocation: "Hungary, Budapest", // Location of Company
             roles: [ // Each company can have multiple Roles
@@ -207,20 +207,33 @@ export let experience = {
             ],
         },
         {
-            companyLogo: "https://pbs.twimg.com/profile_images/923671284013076480/__kptDp3_400x400.jpg", // Leave Blank for Template Logo
+            companyLogo: "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og", // Leave Blank for Template Logo
             companyName: "Complementary Education: Udemy", // Company Name
             companyLocation: "", // Location of Company
             roles: [ // Each company can have multiple Roles
                 {
                     role: "Quantitative Finance Algorithmic Trading in Python",
-                    type: "Complete Investing Course (Stocks, ETFs, Index/Mutual Funds)",
                 },
                 {
                     role: "Python for Finance: Investment Fundamentals Data Analytics",
-                    type: "Python for Financial Analysis and Algorithmic Trading",
-                },
+                },  {
+                    role: "Complete Investing Course (Stocks, ETFs, Index/Mutual Funds)",
+
+                  },
             ],
         },
+        {
+            companyLogo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/EdX_Logo_R_Elm.png", // Company Name
+            companyLocation: "", // Location of Company
+            roles: [ // Each company can have multiple Roles
+                {
+                    role: "Mathematical Methods for Quantitative Finance",
+                    type: "MIT MicroMasters",
+                },
+
+            ],
+        },
+
 
     ]
 };
@@ -367,10 +380,12 @@ export let awards = {
     awardsData_1: [
         // Each Skill will have the title, value for the chart, color, experience (years, months) and a desscription on the task
         // Some examples are shown below
-        { title: '”Talentum 2021” Grand Prize – Discovered Scientific Talent of the Year', value: 45, color: '#28ACEA', experience: '2021',
-        description: 'National Talent Support Council'},
         { title: 'Certificate of Merit from the Ministry of Human Capacities', value: 25, color: '#19CEEB', experience: '2021',
         description: 'Hungarian Ministry of Human Capacities'},
+        { title: 'Stipendium Peregrinum', value: 10, color: '#09EBEE', experience: '2021',
+        description: 'National Talent Support Council'},
+        { title: '”Talentum 2021” Grand Prize – Discovered Scientific Talent of the Year', value: 45, color: '#28ACEA', experience: '2021',
+        description: 'National Talent Support Council'},
         { title: 'Young Talent of Szeged', value: 10, color: '#09EBEE', experience: '2021',
         description: 'Local Government of the City of Szeged'},
         { title: 'Metropolis Award', value: 20, color: '#00FEEF', experience: '2020',
@@ -389,7 +404,7 @@ export let awards = {
         // Some examples are shown below
         { title: 'International Olympiad on Astronomy and Astrophysics', value: 45, color: '#28ACEA', experience: '2020',
         description: 'Silver Medal'},
-        { title: 'International Astronomy and Astro- physics Competition', value: 25, color: '#19CEEB', experience: '2020',
+        { title: 'International Astronomy and Astrophysics Competition', value: 25, color: '#19CEEB', experience: '2020',
         description: 'Golden Medal'},
         { title: 'Szilard Leo National Atomic and Modern Physics Competition', value: 10, color: '#09EBEE', experience: '2021, 2019',
         description: '2nd place with special prize for the best solution of the hardest problem'},

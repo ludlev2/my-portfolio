@@ -14,7 +14,7 @@ function Contracts() {
             <Row style={{justifyContent:"center"}}>
                 {contractsCards.map((card) =>
                     <Col xs={12} md={6} lg={4} className="contracts-card">
-                        <div className="card-info">
+                        <div className="card-info_c">
                             <Row>
                                 <Col xs={10} className="card-title">{card.projectTitle}</Col>
                                 <Col xs={2} className="card-external-url"><a href={card.projectURL} className="url-icon"><FontAwesomeIcon icon = { faExternalLinkAlt } /></a></Col>

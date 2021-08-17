@@ -1,3 +1,4 @@
+
 @import "root.css";
 
 .contracts-container {
@@ -6,15 +7,15 @@
 
 .contracts-card {
     height: 100px;
-    padding: 1em 1em;
+    padding: 1em 0.001em;
     justify-content: center;
 }
 
 /* Card Information */
 
-.card-info {
+.card-info_c {
   height: 100%;
-  width: 100%;
+  width: 140%;
   border: 2px solid var(--primary-color);
   background-color: var(--bg-over);
   border-radius: 0.8em;
