@@ -97,7 +97,7 @@ export let information = {
     aboutMe: "I'm double majoring in Mathematics and Physics! ", // Short Description
     companyName: "at École Polytechnique", // Your position @ a Company
     // Replace with the URL to your image (URL or Local Image)
-    profilePhoto: "https://media-exp1.licdn.com/dms/image/C4E03AQF9Sw1fjIzS5g/profile-displayphoto-shrink_800_800/0/1621532354699?e=1634774400&v=beta&t=KU9N3syUrNjfreswXqjBBE-YTjFdbknINFbuam7EzjQ",
+    profilePhoto: "https://media-exp1.licdn.com/dms/image/C4E03AQFtyW6AFPSy-w/profile-displayphoto-shrink_800_800/0/1632919039929?e=1639008000&v=beta&t=ZaMEyOolzh2aKjE3He1NE7c_aNjnIFMP0_z5tvdUu6M",
 };
 
 // Socials ----------------------------------------------------------------------------
