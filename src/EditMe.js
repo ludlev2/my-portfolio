@@ -435,6 +435,20 @@ export let work = {
   subtitle : 'Work',
 
     works: [ // Preferably, sort by newest first
+      {
+          companyLogo: "https://media-exp1.licdn.com/dms/image/C4D0BAQF0wbqoZwhXTg/company-logo_200_200/0/1605531353644?e=2159024400&v=beta&t=QZvKtKnV14f4vFjmofCaBqnnRdM8r3DGY-Pkee9zabo", // Leave Blank for Template Logo
+          companyName: "Future: Hungary", // Company Name
+          companyLocation: "Cambridge, United Kingdom", // Location of Company
+          roles: [ // Each company can have multiple Roles
+              {
+                  role: "Finance & Analytics Officer",
+                  type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                  startPeriod: "2021", // Preferable format
+                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  description: "I am responsible for overseeing and improving the business and financial model of the conference and managing the budget. I work with the External Relations team on composing sponsorship packages and product development. Also, I works on creating the financial model for expanding the business for other services. ",
+              },
+          ],
+      },
         {
 /*
             companyLogo: "https://upload.wikimedia.org/wikipedia/commons/0/06/École_polytechnique_signature.svg", // Leave Blank for Template Logo
@@ -463,18 +477,19 @@ export let work = {
 
 
             companyLogo: "http://www.gyakg.u-szeged.hu/sagvari/wp-content/uploads/2016/09/szgy300.png", // Leave Blank for Template Logo
-            companyName: "Teaching", // Company Name
-            companyLocation: " High School of the University of Szeged", // Location of Company
+            companyName: "High School of the University of Szeged", // Company Name
+            companyLocation: " Hungary, Szeged", // Location of Company
             roles: [ // Each company can have multiple Roles
                 {
                     role: "Lecturer",
-                    type: "Extracurricular Lectures", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "Physics", // Preferable format
-                    endPeriod: "Astronomy", // End result will look like "Apr 2020 - Present"
+                    type: "Volunteer for holding extracurricular lectures", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "2020", // Preferable format
+                    endPeriod: "2021", // End result will look like "Apr 2020 - Present"
                     description: "I was the first student in my high school who held extracurricular lectures in the afternoons. My goal was to show perplexing, tricky and beautiful problems/concepts to the students. I wanted to show that Physics is more than just mere substitution into formulas.",
                 },
             ],
         },
+
   /*      {
 
             companyLogo: "", // Leave Blank for Template Logo
