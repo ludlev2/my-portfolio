@@ -21,6 +21,8 @@
     width: auto;
     border-radius: 50%;
     height: 200px;
+    object-fit: contain;
+    background-color: #F7F7F7;    
     box-shadow: 0 0 40px var(--primary-color);
 }
 

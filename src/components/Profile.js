@@ -12,6 +12,7 @@ import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-i
 import { information, socials } from '../EditMe';
 
 
+
 function Profile() {
     return (
         <Container fluid className="profile-row">
@@ -29,7 +30,7 @@ function Profile() {
                 </Col>
                 <Col className="column-profile" xs={12} lg={4}>
                     <div className="profile">
-                        <img className="profile-img" src={information.profilePhoto} alt={information.fullName + "'s profile"}></img>
+                        <img className="profile-img" src={process.env.PUBLIC_URL + "/profpic.jpg"} alt={information.fullName + "'s profile"}></img>
                     </div>
                     <div className="profile-socials">
                         <a target="_blank" rel="noreferrer" href={socials.facebookURL} className="profile-facebook">

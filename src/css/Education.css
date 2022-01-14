@@ -19,8 +19,10 @@
     margin-bottom: 5em;
 }
 
-.companyLogo {
-    height: 10em;
+.companyLogo {  
+    width: 150px;
+    height: 100%;
+
 }
 
 .companyDetails {

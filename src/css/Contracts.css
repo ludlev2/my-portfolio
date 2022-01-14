@@ -16,6 +16,10 @@
 .card-info_c {
   height: 100%;
   width: 140%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  left-margin:auto;
   border: 2px solid var(--primary-color);
   background-color: var(--bg-over);
   border-radius: 0.8em;

@@ -85,7 +85,7 @@ export let navigation = {
         enabled: true, // Enable / Disable
         downloadIcon: true, // Show Icon
         text: "Résumé", // Text on Button
-        url: "https://drive.google.com/uc?export=download&id=1r_ItZ3Z5yFJkwdiduTxE4mKtaVmlAo3S", // Make sure to include https:// or http://. This is the download link to your stored Resume
+        url: "https://drive.google.com/uc?export=download&id=1fT5_3vAyuHXB0XUwzbheqZ7H8QJXlN8O", // Make sure to include https:// or http://. This is the download link to your stored Resume
     }
 };
 
@@ -94,7 +94,7 @@ export let navigation = {
 export let information = {
     fullName: "Levente Ludányi", // Name in Profile Banner
     welcomeMsg: "Hi 🤚! I'm ", // Welcome subheading above Name
-    aboutMe: "I'm double majoring in Mathematics and Physics! ", // Short Description
+    aboutMe: "I'm double majoring in Mathematics and Computer Science! ", // Short Description
     companyName: "at École Polytechnique", // Your position @ a Company
     // Replace with the URL to your image (URL or Local Image)
     profilePhoto: "https://media-exp1.licdn.com/dms/image/C4E03AQFtyW6AFPSy-w/profile-displayphoto-shrink_800_800/0/1632919039929?e=1639008000&v=beta&t=ZaMEyOolzh2aKjE3He1NE7c_aNjnIFMP0_z5tvdUu6M",
@@ -155,12 +155,13 @@ export let experience = {
 
     experiences: [ // Preferably, sort by newest first
         {
-            companyLogo: "https://upload.wikimedia.org/wikipedia/commons/0/06/École_polytechnique_signature.svg", // Leave Blank for Template Logo
+            //companyLogo: "https://upload.wikimedia.org/wikipedia/commons/0/06/École_polytechnique_signature.svg", // Leave Blank for Template Logo
+            companyLogo: process.env.PUBLIC_URL + '/ecole2.png',
             companyName: "École Polytechnique", // Company Name
             companyLocation: "Bachelor of Science", // Location of Company
             roles: [ // Each company can have multiple Roles
                 {
-                    role: "Double Major in Mathematics and Physics",
+                    role: "Double Major in Mathematics and Computer Science",
                     type: "Full-Time", // Full-Time, Part-Time, Internship, etc...
                     startPeriod: "September 2021", // Preferable format
                     endPeriod: "Present", // End result will look like "Apr 2020 - Present"
@@ -178,7 +179,7 @@ export let experience = {
         },
 
         {
-            companyLogo: "https://events.ceu.edu/sites/default/files/styles/crop_promo_image/public/milestone_2.gif?itok=LQEgIXHT", // Leave Blank for Template Logo
+            companyLogo: process.env.PUBLIC_URL + '/milestone.png', // Leave Blank for Template Logo
             companyName: "Milestone Institute", // Company Name
             companyLocation: "Hungary, Budapest", // Location of Company
             roles: [ // Each company can have multiple Roles
@@ -193,7 +194,7 @@ export let experience = {
         },
 
         {
-            companyLogo: "http://www.gyakg.u-szeged.hu/sagvari/wp-content/uploads/2016/09/szgy300.png", // Leave Blank for Template Logo
+            companyLogo: process.env.PUBLIC_URL + '/images.png', // Leave Blank for Template Logo
             companyName: "High School of the University of Szeged", // Company Name
             companyLocation: "Hungary, Szeged", // Location of Company
             roles: [ // Each company can have multiple Roles
@@ -207,7 +208,7 @@ export let experience = {
             ],
         },
         {
-            companyLogo: "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og", // Leave Blank for Template Logo
+            companyLogo: process.env.PUBLIC_URL + '/udemy.png', // Leave Blank for Template Logo
             companyName: "Complementary Education: Udemy", // Company Name
             companyLocation: "", // Location of Company
             roles: [ // Each company can have multiple Roles
@@ -223,7 +224,7 @@ export let experience = {
             ],
         },
         {
-            companyLogo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/EdX_Logo_R_Elm.png", // Company Name
+            companyLogo: process.env.PUBLIC_URL + '/edx.jpeg', // Company Name
             companyLocation: "", // Location of Company
             roles: [ // Each company can have multiple Roles
                 {
@@ -436,7 +437,7 @@ export let work = {
 
     works: [ // Preferably, sort by newest first
       {
-          companyLogo: "https://media-exp1.licdn.com/dms/image/C4D0BAQF0wbqoZwhXTg/company-logo_200_200/0/1605531353644?e=2159024400&v=beta&t=QZvKtKnV14f4vFjmofCaBqnnRdM8r3DGY-Pkee9zabo", // Leave Blank for Template Logo
+          companyLogo: process.env.PUBLIC_URL + '/future_hungary.jpeg', // Leave Blank for Template Logo
           companyName: "Future: Hungary", // Company Name
           companyLocation: "Cambridge, United Kingdom", // Location of Company
           roles: [ // Each company can have multiple Roles
@@ -476,7 +477,7 @@ export let work = {
 
 
 
-            companyLogo: "http://www.gyakg.u-szeged.hu/sagvari/wp-content/uploads/2016/09/szgy300.png", // Leave Blank for Template Logo
+            companyLogo: process.env.PUBLIC_URL + '/images.png', // Leave Blank for Template Logo
             companyName: "High School of the University of Szeged", // Company Name
             companyLocation: " Hungary, Szeged", // Location of Company
             roles: [ // Each company can have multiple Roles
