@@ -156,7 +156,7 @@ export let experience = {
     experiences: [ // Preferably, sort by newest first
         {
             //companyLogo: "https://upload.wikimedia.org/wikipedia/commons/0/06/École_polytechnique_signature.svg", // Leave Blank for Template Logo
-            companyLogo: process.env.PUBLIC_URL + '/ecole2.png',
+            companyLogo: process.env.PUBLIC_URL + '/ecole3.png',
             companyName: "École Polytechnique", // Company Name
             companyLocation: "Bachelor of Science", // Location of Company
             roles: [ // Each company can have multiple Roles
