@@ -2,7 +2,7 @@ import git
 
 commit_message = 'Adding presidency'
 
-repo = git.Repo('./')
+repo = git.Repo('./.git')
 
 repo.git.add('--all')
 repo.git.commit('-m', commit_message)
