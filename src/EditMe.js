@@ -381,6 +381,8 @@ export let awards = {
     awardsData_1: [
         // Each Skill will have the title, value for the chart, color, experience (years, months) and a desscription on the task
         // Some examples are shown below
+        { title: 'Execellence Scholarship', value: 25, color: '#19CEEB', experience: '2021',
+        description: 'École Polytechnique'},
         { title: 'Certificate of Merit from the Ministry of Human Capacities', value: 25, color: '#19CEEB', experience: '2021',
         description: 'Hungarian Ministry of Human Capacities'},
         { title: 'Stipendium Peregrinum', value: 10, color: '#09EBEE', experience: '2021',
@@ -436,6 +438,22 @@ export let work = {
   subtitle : 'Work',
 
     works: [ // Preferably, sort by newest first
+
+      {
+          companyLogo: process.env.PUBLIC_URL + '/algotradingsoc.jpeg', // Leave Blank for Template Logo
+          companyName: "École Polytechnique Algorithmic Trading Society", // Company Name
+          companyLocation: "Paris, France", // Location of Company
+          roles: [ // Each company can have multiple Roles
+              {
+                  role: "President",
+                  type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                  startPeriod: "2022", // Preferable format
+                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  description: "I lead and oversee the Algorithmic Trading Society. We organise competitions, conferences, collaborations with firms and have educational workshops. We help with the development of members’ trading algorithms.",
+              },
+          ],
+      },
+
       {
           companyLogo: process.env.PUBLIC_URL + '/future_hungary.jpeg', // Leave Blank for Template Logo
           companyName: "Future: Hungary", // Company Name
