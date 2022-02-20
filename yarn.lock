@@ -3336,9 +3336,9 @@
     "source-map-resolve" "^0.6.0"
 
 "cssdb@^6.3.1":
-  "integrity" "sha512-Ho3gIkGY4O8S3J54fHu7RP5GHWz85McDhimaXEwf7qV0MSPhLM0jdd61zqs1kkadIVDAvfqoku0kArbWaMYolw=="
-  "resolved" "https://registry.npmjs.org/cssdb/-/cssdb-6.3.1.tgz"
-  "version" "6.3.1"
+  "integrity" "sha512-8NMWrur/ewSNrRNZndbtOTXc2Xb2b+NCTPHj8VErFYvJUlgsMAiBGaFaxG6hjy9zbCjj2ZLwSQrMM+tormO8qA=="
+  "resolved" "https://registry.npmjs.org/cssdb/-/cssdb-6.4.0.tgz"
+  "version" "6.4.0"
 
 "cssesc@^3.0.0":
   "integrity" "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg=="
