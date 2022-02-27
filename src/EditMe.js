@@ -455,6 +455,21 @@ export let work = {
       },
 
       {
+          companyLogo: process.env.PUBLIC_URL + '/teencrunch.jpeg', // Leave Blank for Template Logo
+          companyName: "TeenCrunch", // Company Name
+          companyLocation: "Warsaw, Poland", // Location of Company
+          roles: [ // Each company can have multiple Roles
+              {
+                  role: "Co-CTO",
+                  type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                  startPeriod: "2021", // Preferable format
+                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  description: "I am responsible for the Metaverse and Web 3.0. bootcamp at the startup accelerator and executing the first DAO in Central-Eastern Europe.",
+              },
+          ],
+      },
+
+      {
           companyLogo: process.env.PUBLIC_URL + '/future_hungary.jpeg', // Leave Blank for Template Logo
           companyName: "Future: Hungary", // Company Name
           companyLocation: "Cambridge, United Kingdom", // Location of Company
