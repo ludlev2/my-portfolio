@@ -85,7 +85,7 @@ export let navigation = {
         enabled: true, // Enable / Disable
         downloadIcon: true, // Show Icon
         text: "Résumé", // Text on Button
-        url: "https://drive.google.com/uc?export=download&id=1fT5_3vAyuHXB0XUwzbheqZ7H8QJXlN8O", // Make sure to include https:// or http://. This is the download link to your stored Resume
+        url: "https://drive.google.com/uc?export=download&id=1vZTXY0Szw1wigsERR1fChT6hcgPYkhZf", // Make sure to include https:// or http://. This is the download link to your stored Resume
     }
 };
 
@@ -120,12 +120,17 @@ export let aboutMe = {
 export let portfolioCards = [
     {
         projectTitle: "Függvényegyenletek középiskolában - Ludányi Levente, Matos Zoltán",
-        projectDesc: "A paper on the different types of functional equations and several methods to solve them. The paper emphasizes the importance and frequency of the functional equations through different disciplinces.",
+        projectDesc: "A paper on the different types of functional equations and several methods to solve them. The paper emphasizes the importance and frequency of the functional equations through across disciplinces.",
         projectURL: "",
     },
    {
         projectTitle: "The Essence of Theoretical Physics by a High School Student - for the XXXV. National Scientific Student Conference",
-        projectDesc: "A project on the importance and beauty of the mathematical discoveries in physics. An overview of the possible Theory of Everythings along with some concepts of their mathematical description.",
+        projectDesc: "A project on the importance and beauty of the mathematical discoveries in physics. An overview of the possible Theory of Everythings along with some concepts of their mathematical descriptions.",
+        projectURL: "",
+    },
+    {
+        projectTitle: "Sentiment Analysis Algorithm",
+        projectDesc: "An algorithm which scrapes different websites such as Yahoo Finance, Business Insider, Reddit to gather data and uses NLP to output the sentiment on a given financial instrument along with a cofidence interval. Currently, the project is about to be extended to all words not just financial assets.",
         projectURL: "",
     },
     /*{
@@ -438,6 +443,20 @@ export let work = {
   subtitle : 'Work',
 
     works: [ // Preferably, sort by newest first
+      {
+          companyLogo: process.env.PUBLIC_URL + '/stealth_startup.jpeg', // Leave Blank for Template Logo
+          companyName: "Stealth Startup", // Company Name
+          companyLocation: "Paris, France", // Location of Company
+          roles: [ // Each company can have multiple Roles
+              {
+                  role: "Co-Founder",
+                  type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                  startPeriod: "2022", // Preferable format
+                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  description: "",
+              },
+          ],
+      },
 
       {
           companyLogo: process.env.PUBLIC_URL + '/algotradingsoc.jpeg', // Leave Blank for Template Logo
@@ -464,7 +483,22 @@ export let work = {
                   type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
                   startPeriod: "2021", // Preferable format
                   endPeriod: "", // End result will look like "Apr 2020 - Present"
-                  description: "I am responsible for the Metaverse and Web 3.0. bootcamp at the startup accelerator and executing the first DAO in Central-Eastern Europe.",
+                  description: "I am responsible for the Metaverse and Web 3.0. bootcamp at the startup accelerator and executing the first DAO for a nonprofit in Central-Eastern Europe.",
+              },
+          ],
+      },
+
+      {
+          companyLogo: process.env.PUBLIC_URL + '/citadel.jpeg', // Leave Blank for Template Logo
+          companyName: "Citadel Securities", // Company Name
+          companyLocation: "London, UK", // Location of Company
+          roles: [ // Each company can have multiple Roles
+              {
+                  role: "Spring Intern",
+                  type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                  startPeriod: "2022", // Preferable format
+                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  description: "A highly selective networking and educational program by Citadel.",
               },
           ],
       },
@@ -475,11 +509,26 @@ export let work = {
           companyLocation: "Cambridge, United Kingdom", // Location of Company
           roles: [ // Each company can have multiple Roles
               {
-                  role: "Finance & Analytics Officer",
+                  role: "Head of Finance & Analytics",
                   type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
                   startPeriod: "2021", // Preferable format
                   endPeriod: "", // End result will look like "Apr 2020 - Present"
-                  description: "I am responsible for overseeing and improving the business and financial model of the conference and managing the budget. I work with the External Relations team on composing sponsorship packages and product development. Also, I works on creating the financial model for expanding the business for other services. ",
+                  description: "I am responsible for overseeing and improving the business and financial model of the conference and managing the budget. I work with the External Relations team on composing sponsorship packages and product development. Furthermore, I works on financial models for future expansions to other services. ",
+              },
+          ],
+      },
+
+      {
+          companyLogo: process.env.PUBLIC_URL + '/ascientia.png', // Leave Blank for Template Logo
+          companyName: "Ascientia", // Company Name
+          //companyLocation: "Paris, France", // Location of Company
+          roles: [ // Each company can have multiple Roles
+              {
+                  role: "Mathematics and Physics Tutor",
+                  type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                  startPeriod: "2022", // Preferable format
+                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  description: "",
               },
           ],
       },
@@ -510,6 +559,8 @@ export let work = {
 
 
 
+
+
             companyLogo: process.env.PUBLIC_URL + '/images.png', // Leave Blank for Template Logo
             companyName: "High School of the University of Szeged", // Company Name
             companyLocation: " Hungary, Szeged", // Location of Company
@@ -519,7 +570,7 @@ export let work = {
                     type: "Volunteer for holding extracurricular lectures", // Full-Time, Part-Time, Internship, etc...
                     startPeriod: "2020", // Preferable format
                     endPeriod: "2021", // End result will look like "Apr 2020 - Present"
-                    description: "I was the first student in my high school who held extracurricular lectures in the afternoons. My goal was to show perplexing, tricky and beautiful problems/concepts to the students. I wanted to show that Physics is more than just mere substitution into formulas.",
+                    description: "I was the first student in my high school who held extracurricular lectures in the afternoons. My goal was to show perplexing, tricky and beautiful problems/concepts to the students. I wanted to demonstrate that Physics is more than just mere substitution into formulas.",
                 },
             ],
         },
