@@ -443,6 +443,21 @@ export let work = {
   subtitle : 'Work',
 
     works: [ // Preferably, sort by newest first
+        {
+            companyLogo: process.env.PUBLIC_URL + '/worldquant.png', // Leave Blank for Template Logo
+            companyName: "WorldQuant", // Company Name
+            companyLocation: "Budapest, Hungary", // Location of Company
+            roles: [ // Each company can have multiple Roles
+                {
+                    role: "Quantitative Researcher Intern (upcoming)",
+                    type: "Internship", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "June 2022", // Preferable format
+                    endPeriod: "August 2022", // End result will look like "Apr 2020 - Present"
+                    description: "",
+                },
+            ],
+        },    
+    
       {
           companyLogo: process.env.PUBLIC_URL + '/stealth_startup.jpeg', // Leave Blank for Template Logo
           companyName: "Stealth Startup", // Company Name
@@ -452,7 +467,7 @@ export let work = {
                   role: "Co-Founder",
                   type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
                   startPeriod: "2022", // Preferable format
-                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  endPeriod: "Present", // End result will look like "Apr 2020 - Present"
                   description: "",
               },
           ],
@@ -467,7 +482,7 @@ export let work = {
                   role: "President",
                   type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
                   startPeriod: "2022", // Preferable format
-                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  endPeriod: "Present", // End result will look like "Apr 2020 - Present"
                   description: "I lead and oversee the Algorithmic Trading Society. We organise competitions, conferences, collaborations with firms and have educational workshops. We help with the development of members’ trading algorithms.",
               },
           ],
@@ -482,7 +497,7 @@ export let work = {
                   role: "Co-CTO",
                   type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
                   startPeriod: "2021", // Preferable format
-                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  endPeriod: "Present", // End result will look like "Apr 2020 - Present"
                   description: "I am responsible for the Metaverse and Web 3.0. bootcamp at the startup accelerator and executing the first DAO for a nonprofit in Central-Eastern Europe.",
               },
           ],
@@ -496,8 +511,8 @@ export let work = {
               {
                   role: "Spring Intern",
                   type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
-                  startPeriod: "2022", // Preferable format
-                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  startPeriod: "April 2022", // Preferable format
+                  endPeriod: "April 2022", // End result will look like "Apr 2020 - Present"
                   description: "A highly selective networking and educational program by Citadel.",
               },
           ],
@@ -512,7 +527,7 @@ export let work = {
                   role: "Head of Finance & Analytics",
                   type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
                   startPeriod: "2021", // Preferable format
-                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  endPeriod: "Present", // End result will look like "Apr 2020 - Present"
                   description: "I am responsible for overseeing and improving the business and financial model of the conference and managing the budget. I work with the External Relations team on composing sponsorship packages and product development. Furthermore, I works on financial models for future expansions to other services. ",
               },
           ],
@@ -527,7 +542,7 @@ export let work = {
                   role: "Mathematics and Physics Tutor",
                   type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
                   startPeriod: "2022", // Preferable format
-                  endPeriod: "", // End result will look like "Apr 2020 - Present"
+                  endPeriod: "Present", // End result will look like "Apr 2020 - Present"
                   description: "",
               },
           ],
